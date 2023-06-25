@@ -9,6 +9,7 @@ class Login extends React.Component {
     };
   }
 
+  
   // const [title, setTitle] = useState("");
   // const [body, setBody] = useState("");
 
@@ -50,7 +51,7 @@ class Login extends React.Component {
           Registration Number:
           <input type="text" value={this.state.regNo} onChange={this.handleRegNoChange} />
         </label>
-        <br />
+        
         <label>
           Password:
           <input type="password" value={this.state.password} onChange={this.handlePasswordChange} />
